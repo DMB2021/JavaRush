@@ -9,11 +9,11 @@ public class Solution {
         double d = (short) 2.50256e2d;
         char c = 'd';
         short s = (short) 2.22;
-        int i = (short) 150000;
-        float f = (short) 0.50f;
-        System.out.println(d + " " + c + " " + s + " " + i + " " + f);
-        double someResult = (d * s);
-        System.out.println(someResult);
+        int i = 150000;
+        float f = 0.50f;
+        //System.out.println("d = " + d + " c = " + c + " s = " + s + " i = " + i + " f = " + f);
+        //double someResult = (i / c);
+        //System.out.println(someResult);
         double result = f + (i / c) - (d * s) - 500e-3;
         System.out.println("result: " + result);
     }
